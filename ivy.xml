@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE ivy-module [
+	<!ENTITY bouncycastle.version "1.69">
+]>
+<ivy-module version="2.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+	<info organisation="Sabadell" module="" />
+	<configurations>
+		<conf name="default" />
+	</configurations>
+	<dependencies>
+		<dependency org="org.bouncycastle" name="bcprov-jdk15on" rev="&bouncycastle.version;"/>
+		<dependency org="org.bouncycastle" name="bcpkix-jdk15on" rev="&bouncycastle.version;"/>
+		<dependency org="commons-io" name="commons-io" rev="2.11.0"/>
+		<dependency org="org.apache.commons" name="not-yet-commons-ssl" rev="0.3.9"/>
+	</dependencies>
+</ivy-module>
